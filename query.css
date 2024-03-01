@@ -1,0 +1,32 @@
+@media (max-width: 600px) {
+    header {
+        position: relative;
+    }
+
+    header nav {
+        display: none;
+        position: absolute;
+        top: 70px;
+        background-color: #1a315d;
+        width: 100%;
+    }
+
+    .menu-icon {
+        display: block;
+        color: #ffffff;
+        font-size: 23px;
+    }
+
+    header nav li {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 601px) {
+    header nav {
+        display: block !important;
+    }
+}
